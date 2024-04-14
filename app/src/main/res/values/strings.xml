@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">EModule</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">EModule</string>
+    <string name="nav_header_subtitle">TrifingZW@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">设置</string>
+    <string name="action_exit">退出</string>
+
+    <string name="delete_project">删除所有项目</string>
+    <string name="create_project">创建项目</string>
+    <string name="start">启动</string>
+    <string name="delete">删除</string>
+    <string name="name">名称</string>
+    <string name="name_helper">输入模组名称</string>
+    <string name="description">描述</string>
+    <string name="description_helper">输入模组描述</string>
+    <string name="work_path">工作目录</string>
+    <string name="work_path_helper">输入你MOD的解压文件夹的路径</string>
+    <string name="conquest">征服</string>
+    <string name="stage">战役</string>
+    <string name="event">事件</string>
+    <string name="frontier">frontier</string>
+    <string name="generalstage">将领传记</string>
+    <string name="invadecorps">入侵军团</string>
+    <string name="warzone">战区</string>
+    <string name="refresh">刷新</string>
+</resources>
