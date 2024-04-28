@@ -108,7 +108,7 @@ class MainActivity : EModuleActivity() {
 
     private fun permission() {
         val requestList = ArrayList<String>()
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R)
             requestList.add(Manifest.permission.MANAGE_EXTERNAL_STORAGE)
         else {
             requestList.add(Manifest.permission.WRITE_EXTERNAL_STORAGE)

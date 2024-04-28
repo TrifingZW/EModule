@@ -1,14 +1,13 @@
 package com.trifingzw.emodule.activity
 
 import android.os.Bundle
+import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import com.trifingzw.emodule.windowpreferences.WindowPreferencesManager
 
 abstract class EModuleActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val windowPreferencesManager = WindowPreferencesManager(this)
-        windowPreferencesManager.applyEdgeToEdgePreference(window)
+        enableEdgeToEdge()
         userInterface()
         initialize()
     }

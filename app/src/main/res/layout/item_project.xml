@@ -23,10 +23,8 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:background="?attr/colorPrimary"
-                android:scaleType="center"
                 app:shapeAppearanceOverlay="@style/CircleShape"
-                app:srcCompat="@drawable/delete"
-                app:tint="?attr/colorOnPrimary" />
+                app:srcCompat="@drawable/wc4" />
 
             <TextView
                 android:id="@+id/title"
